@@ -1,0 +1,21 @@
+const text = [
+    `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore molestias maxime iusto nam in hic iste, temporibus error accusantium possimus? Dolore maxime quam saepe neque quis quisquam quasi eum eos, quae ratione fugiat exercitationem ipsam, ea minima rem reprehenderit veritatis debitis sed porro odio voluptatem rerum`,
+    `excepturi. Facere culpa corrupti ut debitis praesentium cumque soluta exercitationem sed, aspernatur impedit a quas unde reiciendis, nobis nam commodi, nihil magni possimus doloribus hic id quia? Pariatur unde aperiam quam aliquam autem aliquid doloremque molestiae ea aspernatur totam. Quaerat vero at ad quo magnam rerum sed labore distinctio fugit, nulla quam in exercitationem officia voluptates ducimus aut veniam consectetur tempore laborum nobis porro nihil unde quia. Totam in impedit`,
+    `maxime ab nulla excepturi quaerat unde quod, distinctio, cum, sapiente tempore aliquam recusandae! Ab ut vitae temporibus non ipsa cum facere rem beatae quas ea odio repellat optio doloribus nostrum nemo accusantium officia vel, magni laudantium distinctio impedit quis mollitia quos id! Exercitationem minus a vitae pariatur aspernatur totam excepturi, ipsa, illo possimus placeat modi odit perspiciatis qui nihil quasi quaerat labore blanditiis ad aliquid soluta, veritatis nostrum harum! Est suscipit fuga quaerat molestiae nisi soluta natus, possimus odit consequatur `,
+    `dolorum porro pariatur ab eaque, saepe fugiat voluptas nam dolores similique laboriosam perferendis tenetur dolore beatae. Quasi, perspiciatis! Temporibus molestiae illum repellendus odit delectus quibusdam asperiores quae magnam rem, dolorum sunt architecto quis maxime corrupti dicta, nemo, ea iste labore molestias aperiam reiciendis fuga distinctio atque? Quibusdam doloremque, fugiat atque cupiditate tenetur quaerat vel veritatis illum enim optio nisi ipsa quidem amet laudantium provident impedit praesentium neque, et dolore voluptatibus voluptas! `,
+    `Enim nostrum dolore dolorem rerum inventore totam nulla laboriosam possimus officiis, ipsum impedit odit, quo nesciunt saepe debitis, ipsam necessitatibus! Dicta quaerat tempore in natus, veritatis deserunt quam. Laboriosam dicta voluptatem magnam molestias atque perspiciatis incidunt nemo necessitatibus velit, obcaecati soluta ut qui earum corporis esse quas libero! Nostrum ullam vitae aut optio totam, necessitatibus illo perspiciatis voluptatibus dignissimos sunt, illum beatae, eveniet eaque! A cumque nihil placeat, rerum nam nostrum hic quae doloremque optio minus, quod magnam odio, ex qui voluptatum ea repudiandae. Error, animi quibusdam optio molestiae magni suscipit, aperiam excepturi facere atque voluptatum in quos ullam adipisci temporibus? Molestiae illum ea reprehenderit sapiente, quod cum `,
+    `provident, maiores nulla voluptas laudantium maxime facere animi numquam. Provident vero pariatur optio delectus nam corporis, perferendis ad alias rerum sed dolores? Deserunt excepturi iusto cumque pariatur placeat, harum iure, eos quod recusandae `,
+    `omnis inventore culpa ab est, unde aliquid voluptatum. Magni mollitia, temporibus eos nostrum veritatis expedita assumenda vel ea eaque consequuntur iusto soluta fuga, consectetur laboriosam vitae exercitationem. Excepturi, voluptates. Totam nobis modi ratione natus cumque ipsum, ipsa itaque animi`, 
+
+    `necessitatibus suscipit! Molestiae similique exercitationem consectetur? Voluptate ab, itaque voluptates atque magnam commodi eligendi voluptatem accusamus nesciunt facere cupiditate! Beatae atque incidunt, aliquam nam, magni deserunt pariatur obcaecati culpa vero sapiente modi, aperiam alias quae? Asperiores, qui, accusamus magnam maxime quod distinctio adipisci architecto nobis facilis, dignissimos ratione praesentium facere et aliquam corrupti.`,
+];
+
+const item = document.querySelector("#items");
+const  dataContainer = document.querySelector("#data");
+
+const generate = () =>{
+    console.log(item.value);
+    if(isNaN(item.value) || item.value < 0 || item.value >8){}
+}
+
+console.log(text);
